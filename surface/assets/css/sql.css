@@ -1,0 +1,33 @@
+.thre{
+    font-family    : 'Calibri', sans-serif;
+    text-align     : center;
+    border         : solid 1px rgb(145, 145, 145);
+    padding: 1px 25px;
+    font-size      : 19px;
+    color : #fff;
+}
+.c1{
+    border         : solid 1px rgb(145, 145, 145);
+    text-align     : center;
+    font-family    : 'calibri', sans-serif;
+    font-size      : 25px;
+    color : #fff;
+    padding :  1px;
+
+}
+.tableau2{
+    border-collapse: collapse;
+}
+.texte{
+    font-family    : 'calibri', sans-serif;
+    font-size      : 22px;
+}
+.tik{
+    font-family    : 'calibri', sans-serif;
+    font-size      : 25px;
+}
+.tok{
+    font-family    : 'calibri', sans-serif;
+    font-size      : 19px;
+    margin-left    : 8px;
+}

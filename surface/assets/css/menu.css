@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    position: absolute;
+    position: relative;
+}
+
+#barr {
+    border: solid 3px #2D2D2D;
+    background-color: #2D2D2D;
+    margin-top: -0.7%;
+    position: fixed;
+}
+
+#barr h1 {
+    color: #2D2D2D;
+    font-family: "Calibri";
+    text-align: center;
+}
+
+#menu-demo2,
+#menu-demo2 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu-demo2 li {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+
+#menu-demo2 ul li {
+    display: inherit;
+    border-radius: 0;
+}
+
+#menu-demo2 ul li:hover {
+    border-radius: 0;
+}
+
+#menu-demo2 ul li:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+#menu-demo2 ul {
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .5s all .3s;
+    transition: .4s all .1s;
+}
+
+#menu-demo2 li:hover ul {
+    max-height: 9em;
+    transition: 0.8s;
+}
+
+/* background des liens menus */
+#menu-demo2 li:first-child {
+    background-color: #2D2D2D;
+    background-image: -webkit-linear-gradient(top, #2D2D2D 100%);
+    background-image: linear-gradient(to bottom, #2D2D2D 100%);
+    transition: 0.8s;
+}
+
+#menu-demo2 li:nth-child(2) {
+    background-color: #2D2D2D;
+    background-image: -webkit-linear-gradient(top, #2D2D2D 0%, #2D2D2D 100%);
+    background-image: linear-gradient(to bottom, #2D2D2D 0%, #2D2D2D 100%);
+    transition: 0.8s;
+}
+
+#menu-demo2 li:nth-child(3) {
+    background-color: #2D2D2D;
+    background-image: -webkit-linear-gradient(top, #2D2D2D 0%, #2D2D2D 100%);
+    background-image: linear-gradient(to bottom, #2D2D2D 0%, #2D2D2D 100%);
+    transition: 0.8s;
+}
+
+#menu-demo2 li:last-child {
+    background-color: #2D2D2D;
+    background-image: -webkit-linear-gradient(top, #2D2D2D 0%, #2D2D2D 100%);
+    background-image: linear-gradient(to bottom, #2D2D2D 0%, #2D2D2D 100%);
+    transition: 0.8s;
+}
+
+/* background des liens sous menus */
+#menu-demo2 li:first-child li {
+    transition: 0.8s;
+    background: #2D2D2D;
+}
+
+#menu-demo2 li:nth-child(2) li {
+    transition: 0.8s;
+    background: #2D2D2D;
+}
+
+#menu-demo2 li:nth-child(3) li {
+    background: #2D2D2D;
+}
+
+#menu-demo2 li:last-child li {
+    background: #2D2D2D;
+}
+
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover,
+#menu-demo2 li:first-child li:hover {
+    background: #2D2D2D;
+}
+
+#menu-demo2 li:nth-child(2):hover,
+#menu-demo2 li:nth-child(2) li:hover {
+    background: #2D2D2D;
+}
+
+#menu-demo2 li:nth-child(3):hover,
+#menu-demo2 li:nth-child(3) li:hover {
+    background: #2D2D2D;
+}
+
+#menu-demo2 li:last-child:hover,
+#menu-demo2 li:last-child li:hover {
+    background: #2D2D2D;
+}
+
+/* les a href */
+#menu-demo2 a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 45px;
+    color: #fff;
+    font-family: 'verdana';
+    font-size: 13px;
+}
+
+#menu-demo2 ul a {
+    padding: 8px 0;
+    font-size: 13px;
+    font-family: 'verdana';
+}
+
+#menu-demo2 li:hover li a {
+    color: #fff;
+    text-transform: inherit;
+    transition: 0.8s;
+}
+
+#menu-demo2 li:hover a,
+#menu-demo2 li li:hover a {
+    color: grey;
+    transition: 10s;
+}
+
+#bor {
+    border: solid 3px #2D2D2D;
+    background-color: #2D2D2D;
+    font-family: 'verdana';
+    position: fixed;
+    min-width: 100%;
+}
+
+/*-----------------------------------------CSS PRE TOM LAU---------------------------------------*/
+.box-index-pre {
+    border: solid 3px #000;
+    margin-top: 20px;
+    text-align: center;
+    border-style: hidden;
+    background: #fafafa;
+    padding: 20px;
+}
+
+.titre-index {
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.parra-index {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+.btn-index {
+    color: #fff;
+    text-decoration: none
+}
+
+.btn-index:hover {
+    color: #fff;
+}
+
+.btn-index:hover {
+    text-decoration: none;
+    transition: 5s;
+}
+
+/*-----------------------------------------CSS PRE TOM LAU---------------------------------------*/
+
+/*-----------------------------------------BOXS---------------------------------------*/
+.box {
+    margin-top: 30px;
+    border-style: hidden;
+}
+
+.center-box {
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+    height: 500px;
+    background: #fafafa;
+}
+
+.center-box2 {
+    width: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fafafa;
+}
+
+/*----------------------------------BTN-----------------------*/
+.btn-index2 {
+    border: solid 1px #3498db;
+    background: none;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-index2:hover {
+    color: #fff;
+    background: #3498db;
+    transition: 0.3s;
+}
+
+
+/*----------------------------------BTN-----------------------*/
+
+/*----------------CARD PRESENTATION------------------------*/
+
+.box-card{
+    width: 450px;
+    background: #333;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top : 2%;
+    color : #fff;
+    font-family: 'calibri';
+}
+.box-card-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box-card h1{
+    font-size: 40px;
+    font-family: 'calibri';
+    letter-spacing: 4px;
+    font-weight: 200;
+}
+.box-card h5{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'calibri';
+}
+.box-card p{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------CARD PRESENTATION------------------------*/
+
+

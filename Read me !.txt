@@ -1,0 +1,30 @@
+Projet Stage : 
+
+
+
+Résumer {
+	J'ai apporté les modifications que tu m'avais dite avant de partir.
+	Si il manque des choses, des choses à améliorer ou a ajouté, fais-moi en part (donne moi le plus de détail possible).
+}
+
+
+
+
+Installation{
+	-Je t'ai exporter le projet + la base de données dans un fichier rar.
+
+	-Pour installer le dossier qui contient le code (dossier "surface") : 
+	dossier ou tu as installé wamp > www et tu le glisse (je préfère le rappeler, on ne sais jamais).
+
+	Installation de la base de donnée : 
+	démarer wamp > Chrome > taper localhost > phpmyadmin > execute (pas de mot de passe sur wamp) > nouvelle base de donnée > /!\ nom de la base de donnée : archi (important) >
+	cliquer sur la base de donnée crée (donc cliquer sur archi) > onglet importer > selectionne le fichier .sql qui s'appelle "archi" > execute.
+}
+
+
+
+PS{
+	Tu saluera David de ma part :)
+	
+	Si jamais il y a des modification a apporté, j'aurais besoin du exel si possible (le exel me servira soit pour la dispostion du tableau ou pour les formules de calcul).
+}
